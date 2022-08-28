@@ -6,3 +6,8 @@ D:\C# Develop\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.SuggestedBinding
 D:\C# Develop\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
 D:\C# Develop\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
 D:\C# Develop\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
+D:\C# Develop Skillbox\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.AssemblyReference.cache
+D:\C# Develop Skillbox\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.SuggestedBindingRedirects.cache
+D:\C# Develop Skillbox\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+D:\C# Develop Skillbox\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+D:\C# Develop Skillbox\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb

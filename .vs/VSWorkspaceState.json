@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\HelloWorld",
+    "\\HelloWorld\\HelloWorld"
   ],
-  "SelectedNode": "\\D:\\C# Develop Skillbox",
+  "SelectedNode": "\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
   "PreviewInSolutionExplorer": false
 }

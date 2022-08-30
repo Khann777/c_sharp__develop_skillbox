@@ -19,27 +19,31 @@ namespace Practice3._10_part5
             while (true)
             {
                 Console.Write("Enter your number: ");
-                int number = int.Parse(Console.ReadLine());
 
-                if (number < randomNumber)
-                {
-                    Console.WriteLine("Your number is less than expected, try again");
-                }
-                if (number > randomNumber)
-                {
-                    Console.WriteLine("Your number is bigger than expected, try again");
-                }
-                if (number == randomNumber)
-                {
-                    Console.WriteLine($"Congratulations you have guessed the right number, it is: {randomNumber}\n" +
-                        $"Press Enter to exit.");
-                    break;
-                }
-                if (number.ToString() == null)
+                string enterNumber = Console.ReadLine();
+                if (enterNumber == "")
                 {
                     Console.WriteLine($"Unfortunatelly you have not guessed the right number, it is {randomNumber}\n" +
                         $"press Enter to exit");
                     break;
+                }
+                else
+                {
+                    int number = int.Parse(enterNumber);
+                    if (number < randomNumber)
+                    {
+                        Console.WriteLine("Your number is less than expected, try again");
+                    }
+                    if (number > randomNumber)
+                    {
+                        Console.WriteLine("Your number is bigger than expected, try again");
+                    }
+                    if (number == randomNumber)
+                    {
+                        Console.WriteLine($"Congratulations you have guessed the right number, it is: {randomNumber}\n" +
+                            $"Press Enter to exit.");
+                        break;
+                    }
                 }
             }
             Console.ReadKey();

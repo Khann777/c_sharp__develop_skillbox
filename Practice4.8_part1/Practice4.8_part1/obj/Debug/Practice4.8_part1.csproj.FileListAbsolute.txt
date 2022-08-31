@@ -1,0 +1,8 @@
+D:\C# Develop Skillbox\Practice4.8_part1\Practice4.8_part1\bin\Debug\Practice4.8_part1.exe.config
+D:\C# Develop Skillbox\Practice4.8_part1\Practice4.8_part1\bin\Debug\Practice4.8_part1.exe
+D:\C# Develop Skillbox\Practice4.8_part1\Practice4.8_part1\bin\Debug\Practice4.8_part1.pdb
+D:\C# Develop Skillbox\Practice4.8_part1\Practice4.8_part1\obj\Debug\Practice4.8_part1.csproj.AssemblyReference.cache
+D:\C# Develop Skillbox\Practice4.8_part1\Practice4.8_part1\obj\Debug\Practice4.8_part1.csproj.SuggestedBindingRedirects.cache
+D:\C# Develop Skillbox\Practice4.8_part1\Practice4.8_part1\obj\Debug\Practice4.8_part1.csproj.CoreCompileInputs.cache
+D:\C# Develop Skillbox\Practice4.8_part1\Practice4.8_part1\obj\Debug\Practice4.8_part1.exe
+D:\C# Develop Skillbox\Practice4.8_part1\Practice4.8_part1\obj\Debug\Practice4.8_part1.pdb

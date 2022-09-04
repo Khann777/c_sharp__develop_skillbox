@@ -1,0 +1,8 @@
+D:\C# Develop Skillbox\Practice 6\Practice 6\bin\Debug\Practice 6.exe.config
+D:\C# Develop Skillbox\Practice 6\Practice 6\bin\Debug\Practice 6.exe
+D:\C# Develop Skillbox\Practice 6\Practice 6\bin\Debug\Practice 6.pdb
+D:\C# Develop Skillbox\Practice 6\Practice 6\obj\Debug\Practice 6.csproj.AssemblyReference.cache
+D:\C# Develop Skillbox\Practice 6\Practice 6\obj\Debug\Practice 6.csproj.SuggestedBindingRedirects.cache
+D:\C# Develop Skillbox\Practice 6\Practice 6\obj\Debug\Practice 6.csproj.CoreCompileInputs.cache
+D:\C# Develop Skillbox\Practice 6\Practice 6\obj\Debug\Practice 6.exe
+D:\C# Develop Skillbox\Practice 6\Practice 6\obj\Debug\Practice 6.pdb

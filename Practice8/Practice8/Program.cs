@@ -10,16 +10,9 @@ namespace Practice8
     {
         static void Main(string[] args)
         {
-            Random random = new Random();
             List<int> wholeNumbers = new List<int>();
 
-            int i = 0;
-            while (i < 100)
-            {
-                wholeNumbers.Add(random.Next(100));
-                i++;
-            }
-
+            FillList(wholeNumbers);
             PrintNumbers(wholeNumbers);
             Console.ReadKey();
 
@@ -27,6 +20,18 @@ namespace Practice8
             PrintNumbers(wholeNumbers);
             Console.ReadKey();
 
+        }
+
+        public static void FillList(List<int> list)
+        {
+            Random random = new Random();
+
+            int i = 0;
+            while (i < 100)
+            {
+                list.Add(random.Next(100));
+                i++;
+            }
         }
 
         /// <summary>

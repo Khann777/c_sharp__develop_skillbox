@@ -22,6 +22,10 @@ namespace Practice8
 
         }
 
+        /// <summary>
+        /// Fills list with random numbers from 0 to 100
+        /// </summary>
+        /// <param name="list">List to fill with numbers</param>
         public static void FillList(List<int> list)
         {
             Random random = new Random();

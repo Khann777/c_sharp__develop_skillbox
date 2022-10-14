@@ -1,0 +1,15 @@
+/Users/mac/Projects/c_sharp__develop_skillbox/Practice8/Practice8.4/bin/Debug/net6.0/Practice8.4
+/Users/mac/Projects/c_sharp__develop_skillbox/Practice8/Practice8.4/bin/Debug/net6.0/Practice8.4.deps.json
+/Users/mac/Projects/c_sharp__develop_skillbox/Practice8/Practice8.4/bin/Debug/net6.0/Practice8.4.runtimeconfig.json
+/Users/mac/Projects/c_sharp__develop_skillbox/Practice8/Practice8.4/bin/Debug/net6.0/Practice8.4.dll
+/Users/mac/Projects/c_sharp__develop_skillbox/Practice8/Practice8.4/bin/Debug/net6.0/Practice8.4.pdb
+/Users/mac/Projects/c_sharp__develop_skillbox/Practice8/Practice8.4/obj/Debug/net6.0/Practice8.4.csproj.AssemblyReference.cache
+/Users/mac/Projects/c_sharp__develop_skillbox/Practice8/Practice8.4/obj/Debug/net6.0/Practice8.4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Projects/c_sharp__develop_skillbox/Practice8/Practice8.4/obj/Debug/net6.0/Practice8.4.AssemblyInfoInputs.cache
+/Users/mac/Projects/c_sharp__develop_skillbox/Practice8/Practice8.4/obj/Debug/net6.0/Practice8.4.AssemblyInfo.cs
+/Users/mac/Projects/c_sharp__develop_skillbox/Practice8/Practice8.4/obj/Debug/net6.0/Practice8.4.csproj.CoreCompileInputs.cache
+/Users/mac/Projects/c_sharp__develop_skillbox/Practice8/Practice8.4/obj/Debug/net6.0/Practice8.4.dll
+/Users/mac/Projects/c_sharp__develop_skillbox/Practice8/Practice8.4/obj/Debug/net6.0/refint/Practice8.4.dll
+/Users/mac/Projects/c_sharp__develop_skillbox/Practice8/Practice8.4/obj/Debug/net6.0/Practice8.4.pdb
+/Users/mac/Projects/c_sharp__develop_skillbox/Practice8/Practice8.4/obj/Debug/net6.0/Practice8.4.genruntimeconfig.cache
+/Users/mac/Projects/c_sharp__develop_skillbox/Practice8/Practice8.4/obj/Debug/net6.0/ref/Practice8.4.dll

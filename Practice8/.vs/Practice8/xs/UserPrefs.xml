@@ -1,10 +1,11 @@
-﻿<Properties StartupConfiguration="{C7725D13-C53F-4824-AF20-560660300DEF}|Default">
+﻿<Properties StartupConfiguration="{0D2CEDBE-462F-4503-8DEE-A4106B50599E}|Default">
+  <MonoDevelop.Ide.ItemProperties.Practice8.4 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Practice8.3 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Practice8.3 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Practice8 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Practice8.2 PreferredExecutionTarget="MonoDevelop.Default" />

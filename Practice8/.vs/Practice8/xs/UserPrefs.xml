@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{0D2CEDBE-462F-4503-8DEE-A4106B50599E}|Default">
-  <MonoDevelop.Ide.ItemProperties.Practice8.4 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Practice8.4 PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
@@ -9,16 +9,21 @@
   <MonoDevelop.Ide.ItemProperties.Practice8 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Practice8.2 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Practice8.2/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Practice8.4/Program.cs">
     <Files>
       <File FileName="Practice8/Program.cs" Line="37" Column="9" />
-      <File FileName="Practice8.2/Program.cs" Line="30" Column="9" />
+      <File FileName="Practice8.2/Program.cs" Line="18" Column="1" />
+      <File FileName="Practice8.3/Program.cs" Line="16" Column="10" />
+      <File FileName="Practice8.4/Program.cs" Line="30" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Practice8" expanded="True">
+            <Node name="Practice8" expanded="True" />
             <Node name="Practice8.2" expanded="True" />
+            <Node name="Practice8.3" expanded="True" />
+            <Node name="Practice8.4" expanded="True" />
           </Node>
         </State>
       </Pad>

@@ -1,0 +1,8 @@
+D:\C# Develop Skillbox\Practice8\Practice8\bin\Debug\Practice8.exe.config
+D:\C# Develop Skillbox\Practice8\Practice8\bin\Debug\Practice8.exe
+D:\C# Develop Skillbox\Practice8\Practice8\bin\Debug\Practice8.pdb
+D:\C# Develop Skillbox\Practice8\Practice8\obj\Debug\Practice8.csproj.AssemblyReference.cache
+D:\C# Develop Skillbox\Practice8\Practice8\obj\Debug\Practice8.csproj.SuggestedBindingRedirects.cache
+D:\C# Develop Skillbox\Practice8\Practice8\obj\Debug\Practice8.csproj.CoreCompileInputs.cache
+D:\C# Develop Skillbox\Practice8\Practice8\obj\Debug\Practice8.exe
+D:\C# Develop Skillbox\Practice8\Practice8\obj\Debug\Practice8.pdb

@@ -10,6 +10,35 @@ namespace Practice8
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
+            Random random = new Random();
+            List<int> wholeNumbers = new List<int>();
+            while (wholeNumbers.Count < 100)
+            {
+                wholeNumbers.Add(random.Next(100));
+            }
+            PrintList(wholeNumbers);
+            Console.ReadKey();
+        }
+
+        public static void PrintList(List<int> list)
+        {
+            for (int i = 0; i < list.Count; i++)
+            {
+                Console.Write($"{list[i]} ");
+            }
+        }
+
+        public void DeleteNumbers(List<int> list)
+        {
+            for (int i = 0; i < list.Count; i++)
+            {
+                list.RemoveAll(25);
+            }
+        }
+    }
+}
+=======
             List<int> wholeNumbers = new List<int>();
 
             FillList(wholeNumbers);
@@ -65,3 +94,4 @@ namespace Practice8
         }
     }
 }
+>>>>>>> e2c40b563a5586fbb32959a0f40bd6bb4e86fd25

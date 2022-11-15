@@ -153,6 +153,9 @@ namespace Practice9
                         await botClient.SendDocumentAsync(message.Chat.Id, new InputOnlineFile(stream));
                         await botClient.SendTextMessageAsync(message.Chat.Id, "Now you can download your file");
                         stream.Close();
+                        await botClient.SendDocumentAsync(
+    chatId: message.Chat.Id,
+    document: $"_{message.Text}");
                     }
                 }
             }

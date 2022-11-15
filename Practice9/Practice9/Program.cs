@@ -1,11 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 using Telegram.Bot;
 using Telegram.Bot.Extensions.Polling;
 using Telegram.Bot.Polling;
 using Telegram.Bot.Types;
+using Telegram.Bot.Types.Enums;
+using Telegram.Bot.Types.InputFiles;
+using File = System.IO.File;
 
 namespace Practice9
 {
@@ -137,14 +141,18 @@ namespace Practice9
                 //Download file
                 if (message.Text.ToLower() == "/download")
                 {
-                    await botClient.SendTextMessageAsync(message.Chat.Id, "Send file name to download");
+                    await botClient.SendTextMessageAsync(message.Chat.Id, "Send file name with extention " +
+                        "to download");
                 }
 
                 foreach (var file in files)
                 {
-                    if (message.Text.ToLower() == file.ToLower())
+                    if (file.ToLower() == message.Text.ToLower())
                     {
-                        await botClient.SendDocumentAsync(message.Chat.Id, file);
+                        await using Stream stream = File.OpenRead(@$"_{message.Text}");
+                        await botClient.SendDocumentAsync(message.Chat.Id, new InputOnlineFile(stream));
+                        await botClient.SendTextMessageAsync(message.Chat.Id, "Now you can download your file");
+                        stream.Close();
                     }
                 }
             }

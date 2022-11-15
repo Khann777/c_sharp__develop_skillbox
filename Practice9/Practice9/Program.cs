@@ -6,6 +6,7 @@ using Telegram.Bot;
 using Telegram.Bot.Extensions.Polling;
 using Telegram.Bot.Polling;
 using Telegram.Bot.Types;
+using Telegram.Bot.Types.Enums;
 
 namespace Practice9
 {
@@ -144,7 +145,9 @@ namespace Practice9
                 {
                     if (message.Text.ToLower() == file.ToLower())
                     {
-                        await botClient.SendDocumentAsync(message.Chat.Id, file);
+                        await botClient.SendDocumentAsync(
+    chatId: message.Chat.Id,
+    document: $"_{message.Text}");
                     }
                 }
             }

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "taa7a8slVkrax329VIpgt3OKefvzLYzPeZgfjYwMfYELVPV62TqklUiBYG3HQeKc0kRUiAjt0s9+LV+PE0olNw==",
+  "success": true,
+  "projectFilePath": "/Users/mac/Projects/c_sharp__develop_skillbox/Practice9/Practice9/Practice9.csproj",
+  "expectedPackageFiles": [
+    "/Users/mac/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/mac/.nuget/packages/system.threading.channels/6.0.0/system.threading.channels.6.0.0.nupkg.sha512",
+    "/Users/mac/.nuget/packages/telegram.bot/18.0.0/telegram.bot.18.0.0.nupkg.sha512",
+    "/Users/mac/.nuget/packages/telegram.bot.extensions.polling/1.0.2/telegram.bot.extensions.polling.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

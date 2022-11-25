@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Practice5;
 
 namespace Practice10
 {
@@ -23,6 +24,18 @@ namespace Practice10
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Split_Click(object sender, RoutedEventArgs e)
+        {
+            PrintedList.ItemsSource = Program.SplitSentence(InputSplitBox.Text);
+        }
+
+        private void Reverse_Click(object sender, RoutedEventArgs e)
+        {
+            //string[] sentence = Program.SplitSentence(InputBox.Text);
+            PrintReverseLabel.Content = 
+                Program.ReverceSentence(Program.SplitSentence(InputReverseBox.Text));
         }
     }
 }

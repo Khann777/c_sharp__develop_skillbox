@@ -94,5 +94,14 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Practice5\Practice5\Practice5.csproj">
+      <Project>{13799b59-f3ac-423b-a983-814f83647119}</Project>
+      <Name>Practice5</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

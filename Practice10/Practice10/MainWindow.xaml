@@ -7,6 +7,48 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="InputSplitBox" 
+                 HorizontalAlignment="Left" 
+                 Margin="26,78,0,0" 
+                 TextWrapping="Wrap" 
+                 Text="Enter text for splitting" 
+                 VerticalAlignment="Top" 
+                 Width="267"
+                 Height="110"
+                 />
+        <Button x:Name="Split" 
+                Content="Split Sentence" 
+                HorizontalAlignment="Left" 
+                Margin="324,98,0,0" 
+                VerticalAlignment="Top" 
+                Height="42"
+                Click="Split_Click" Width="96"
+                />
+        <ListBox x:Name="PrintedList"
+                 Margin="461,0,0,246" 
+                 />
+        <Button x:Name="Reverse" 
+                Content="Reverse Sentence" 
+                HorizontalAlignment="Left" 
+                Margin="324,285,0,0" 
+                VerticalAlignment="Top" 
+                Height="42"
+                Click="Reverse_Click"
+                />
+        <TextBox x:Name="InputReverseBox"
+            HorizontalAlignment="Left"
+                 Margin="26,231,0,0"
+                 TextWrapping="Wrap"
+                 Text="Input text for reversing"
+                 VerticalAlignment="Top"
+                 Width="267"
+                 Height="115"/>
+        <Label x:Name="PrintReverseLabel"
+               Content="Label"
+               HorizontalAlignment="Left"
+               Margin="461,231,0,0"
+               VerticalAlignment="Top"
+               Height="203"
+               Width="339"/>
     </Grid>
 </Window>

@@ -6,3 +6,11 @@ D:\C# Develop Skillbox\Practice5\Practice5\obj\Debug\Practice5.csproj.SuggestedB
 D:\C# Develop Skillbox\Practice5\Practice5\obj\Debug\Practice5.csproj.CoreCompileInputs.cache
 D:\C# Develop Skillbox\Practice5\Practice5\obj\Debug\Practice5.exe
 D:\C# Develop Skillbox\Practice5\Practice5\obj\Debug\Practice5.pdb
+C:\Users\mac\source\repos\Khann777\c_sharp__develop_skillbox\Practice5\Practice5\bin\Debug\Practice5.exe.config
+C:\Users\mac\source\repos\Khann777\c_sharp__develop_skillbox\Practice5\Practice5\bin\Debug\Practice5.exe
+C:\Users\mac\source\repos\Khann777\c_sharp__develop_skillbox\Practice5\Practice5\bin\Debug\Practice5.pdb
+C:\Users\mac\source\repos\Khann777\c_sharp__develop_skillbox\Practice5\Practice5\obj\Debug\Practice5.csproj.AssemblyReference.cache
+C:\Users\mac\source\repos\Khann777\c_sharp__develop_skillbox\Practice5\Practice5\obj\Debug\Practice5.csproj.SuggestedBindingRedirects.cache
+C:\Users\mac\source\repos\Khann777\c_sharp__develop_skillbox\Practice5\Practice5\obj\Debug\Practice5.csproj.CoreCompileInputs.cache
+C:\Users\mac\source\repos\Khann777\c_sharp__develop_skillbox\Practice5\Practice5\obj\Debug\Practice5.exe
+C:\Users\mac\source\repos\Khann777\c_sharp__develop_skillbox\Practice5\Practice5\obj\Debug\Practice5.pdb

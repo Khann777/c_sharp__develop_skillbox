@@ -1,0 +1,161 @@
+﻿<Window x:Class="Practice11.ChangeInfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practice11"
+        mc:Ignorable="d"
+        Title="Change Information"
+        Height="479"
+        Width="368">
+    <Grid x:Name="MainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock x:Name="ChangeWindowTitle" 
+                   Text="Change Clients Information" 
+                   TextAlignment="Center"
+                   FontSize="20"
+                   FontWeight="Bold"
+                   Grid.ColumnSpan="2"
+                   Grid.RowSpan="1"
+                   TextWrapping="Wrap"/>
+
+        <TextBlock x:Name="FirstNameText"
+                   TextAlignment="Center"
+                   FontWeight="Bold"
+                   Text="First Name"
+                   HorizontalAlignment="Center"
+                   Width="140"
+                   Height="20"
+                   Grid.Column="0"
+                   Grid.Row="1"/>
+        <TextBox x:Name="FirstNameChangeBox"
+                 HorizontalAlignment="Center" 
+                 TextWrapping="Wrap" 
+                 Text="TextBox" 
+                 VerticalAlignment="Center" 
+                 Width="140"
+                 Height="20"
+                 Grid.Column="1"
+                 Grid.Row="1"/>
+
+        <TextBlock x:Name="LastNameText"
+                   HorizontalAlignment="Center"
+                   TextAlignment="Center"
+                   FontWeight="Bold"
+                   Text="LastName"
+                   Width="140"
+                   Height="20"
+                   Grid.Column="0"
+                   Grid.Row="2"/>
+        <TextBox x:Name="LastNameChangeBox"
+                 HorizontalAlignment="Center"
+                 TextWrapping="Wrap" 
+                 Text="TextBox" 
+                 VerticalAlignment="Center" 
+                 Width="140"
+                 Height="20"
+                 Grid.Column="1"
+                 Grid.Row="2"/>
+
+        <TextBlock x:Name="FathersNameText"
+                   HorizontalAlignment="Center"
+                   TextAlignment="Center"
+                   FontWeight="Bold"
+                   Text="Fathers Name"
+                   Width="140"
+                   Height="20"
+                   Grid.Column="0"
+                   Grid.Row="3"/>
+        <TextBox x:Name="FathersNameChangeBox"
+                 HorizontalAlignment="Center"
+                 TextWrapping="Wrap" 
+                 Text="TextBox" 
+                 VerticalAlignment="Center" 
+                 Width="140"
+                 Height="20"
+                 Grid.Column="1"
+                 Grid.Row="3"/>
+
+        <TextBlock x:Name="PhoneNumberText"
+                   HorizontalAlignment="Center"
+                   TextAlignment="Center"
+                   FontWeight="Bold"
+                   Text="Phone Number"
+                   Width="140"
+                   Height="20"
+                   Grid.Column="0"
+                   Grid.Row="4"/>
+        <TextBox x:Name="PhoneNumberChangeBox"
+                 HorizontalAlignment="Center"
+                 TextWrapping="Wrap" 
+                 Text="TextBox" 
+                 VerticalAlignment="Center" 
+                 Width="140"
+                 Height="20"
+                 Grid.Column="1"
+                 Grid.Row="4"/>
+
+        <TextBlock x:Name="PassportSeriesText"
+                   HorizontalAlignment="Center"
+                   TextAlignment="Center"
+                   FontWeight="Bold"
+                   Text="Passport Series"
+                   Width="140"
+                   Height="20"
+                   Grid.Column="0"
+                   Grid.Row="5"/>
+        <TextBox x:Name="PassportSeriesChangeBox"
+                 HorizontalAlignment="Center"
+                 TextWrapping="Wrap" 
+                 Text="TextBox" 
+                 VerticalAlignment="Center" 
+                 Width="140"
+                 Height="20"
+                 Grid.Column="1"
+                 Grid.Row="5"/>
+
+        <TextBlock x:Name="PassportNumberText"
+                   HorizontalAlignment="Center"
+                   TextAlignment="Center"
+                   FontWeight="Bold"
+                   Text="Passport Number"
+                   Width="140"
+                   Height="20"
+                   Grid.Column="0"
+                   Grid.Row="6"/>
+        <TextBox x:Name="PassportNumberChangeBox"
+                 HorizontalAlignment="Center"
+                 TextWrapping="Wrap" 
+                 Text="TextBox" 
+                 VerticalAlignment="Center"
+                 Width="140"
+                 Height="20"
+                 Grid.Column="1"
+                 Grid.Row="6"/>
+
+        <Button x:Name="ChangeButton"
+                Content="Change"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontWeight="Bold"
+                FontSize="16"
+                Width="226"
+                Height="35"
+                Grid.Row="7"
+                Grid.ColumnSpan="2"/>
+    </Grid>
+</Window>

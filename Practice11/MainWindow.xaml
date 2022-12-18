@@ -4,9 +4,72 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Practice11"
+        xmlns:col="clr-namespace:System.Collections;assembly=mscorlib"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow"
+            Height="450"
+            Width="800">
+    <Grid x:Name="Bank_Account">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="457*"/>
+            <ColumnDefinition Width="343*"/>
+        </Grid.ColumnDefinitions>
+
+        <ListView x:Name="ClientList" 
+                  Margin="10,10,1,10"
+                  SelectionChanged="ClientList_SelectionChanged">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn 
+                        DisplayMemberBinding=
+                        "{Binding Path = FirstName}"
+                        Width="150">
+                        First Name
+                    </GridViewColumn>
+                    <GridViewColumn 
+                        DisplayMemberBinding=
+                        "{Binding Path = LastName}"
+                        Width="150">
+                        Last Name
+                    </GridViewColumn>
+                    <GridViewColumn 
+                        DisplayMemberBinding=
+                        "{Binding Path = FathersName}"
+                        Width="150">
+                        Fathers Name
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <StackPanel Margin="21,10,0,321" Grid.Column="2">
+            <ComboBox x:Name="Accounts"
+                  FontSize="21"
+                  FontWeight="Bold"
+                  Height="66"
+                  Width="279"
+                  Text="Choose Account"
+                  HorizontalAlignment="Center" 
+                  VerticalAlignment="Center"
+                  VerticalContentAlignment="Center"
+                  HorizontalContentAlignment="Center"
+                  BorderThickness="2,2,2,2"
+                  SelectionChanged="Accounts_SelectionChanged"
+                  IsEditable="True">
+                <TextBlock x:Name="Account1">Consultant</TextBlock>
+                <TextBlock x:Name="Account2">Manager</TextBlock>
+            </ComboBox>
+        </StackPanel>
+
+        <StackPanel Grid.ColumnSpan="2"
+                    Margin="456,118,0,0">
+            <Button x:Name="AddClientButton"
+                    Content="Add new client"
+                    Height="61"
+                    FontSize="21"
+                    Click="AddClientButton_Click"
+                    IsEnabled="False"
+                    />
+        </StackPanel>
     </Grid>
 </Window>
